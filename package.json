@@ -1,0 +1,20 @@
+{
+  "name": "customer",
+  "version": "1.0.0",
+  "description": "Customer management CLI",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zhora Khachatryan",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.11.0",
+    "dotenv": "^8.1.0",
+    "inquirer": "^4.0.0",
+    "mongoose": "^5.6.11"
+  }
+}
